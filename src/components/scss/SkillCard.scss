@@ -14,6 +14,7 @@
     transform: perspective(800px) rotateY(0);
     transform-style: preserve-3d;
     transition: 0.5s;
+    background: white;
 
     &:horver {
       transform: rotateY(180deg);

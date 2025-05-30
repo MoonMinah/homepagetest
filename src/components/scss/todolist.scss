@@ -1,0 +1,25 @@
+@use "../../App.scss" as g;
+
+.todoApp {
+  border: 1px solid red;
+  .todoForm {
+    input {
+      flex: 1;
+      line-height: 40px;
+    }
+    button {
+    }
+  }
+  .todoList {
+    button {
+    }
+    ul {
+      li {
+        span {
+        }
+        button {
+        }
+      }
+    }
+  }
+}
