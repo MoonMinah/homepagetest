@@ -5,14 +5,16 @@ import TodoList from "./TodoList";
 import "../scss/todolist.scss";
 
 function TodoApp() {
-  return (
-    <TodoProvider>
-      <div className="todoApp">
-        <TodoForm />
-        <TodoList />
-        <TodoCount />
-      </div>
-    </TodoProvider>
-  );
+    return (
+        <TodoProvider>
+            <div className="todoApp">
+                <div>
+                    <TodoForm />
+                    <TodoList />
+                    <TodoCount />
+                </div>
+            </div>
+        </TodoProvider>
+    )
 }
 export default TodoApp;

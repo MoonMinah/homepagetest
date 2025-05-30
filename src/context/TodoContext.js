@@ -54,7 +54,6 @@ export const TodoProvider = ({ children }) => {
     //전체 할일을 제거할
     const removeAll = () => {
         setTodos([]);
-        // localStorage.removeItem(TODOS_KEY);
     }
 
     return (

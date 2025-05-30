@@ -1,15 +1,18 @@
-import React from "react";
-import SectionTitle from "../components/SectionTitle";
+import React from 'react'
+import SectionTitle from '../components/SectionTitle'
 
 const About = () => {
-  return (
-    <div className="main about">
-      <div className="content-inner">
-        <SectionTitle title="About" subTitle="저는 홍길동" />
-        <div>about 본문</div>
-      </div>
-    </div>
-  );
-};
+    return (
+        <div className="main about">
+            <div className='content-inner'>
+                <SectionTitle title="About" subTitle="저는 홍길동" />
+                <div>
+                    <p>#열정적인 </p>
+                    <p><a href="#"></a></p>
+                </div>
+            </div>
+        </div>
+    )
+}
 
-export default About;
+export default About
