@@ -1,0 +1,10 @@
+.big-title-box {
+  font-size: 4rem;
+  line-height: 1;
+  span {
+    display: block;
+    background: linear-gradient(to right, #3b80db 0%, #9836c9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
